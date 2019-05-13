@@ -1,0 +1,1 @@
+<?php include("a_config.php"); ?>

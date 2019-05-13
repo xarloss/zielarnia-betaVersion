@@ -1,0 +1,31 @@
+.contact-form {
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    height: 5rem;
+}
+textarea {
+    height: 10rem;
+}
+
+label {
+    font-size: 2rem;
+    text-align:right;
+    display:block;
+
+    @include respond(tab-port) {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+*:focus {outline:none;}

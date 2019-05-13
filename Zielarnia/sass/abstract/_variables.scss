@@ -1,0 +1,40 @@
+// COLORS
+
+$color-primary: #55c57a;
+$color-primary-light: rgb(127, 213, 112);
+$color-primary-dark: #28b485;
+
+$color-first: #55c57a;
+$color-first-dark: #28b485;
+
+//$color-first: rgb(177, 143, 80);
+//$color-first-dark: rgb(150, 106, 25);
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-white: #fff;
+$color-grey-dark-3: #333;
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-black: #000;
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+// FONT
+$default-font-size: 1.6rem;
+
+// SHADOW
+
+$shadow-light: .5rem 1rem 2rem rgba($color-black, .2);
+$shadow-medium:  0 1.5rem 4rem rgba($color-black, .4);
+$shadow-high:0 1.5rem 4rem rgba($color-black, .15);
+
+// GRID
+
+$grid-width: 141rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;

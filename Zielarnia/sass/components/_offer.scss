@@ -1,0 +1,39 @@
+.list {
+    width: 100%;
+    list-style: none;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+
+
+    &__item {
+        width: 44%;
+        padding: 1rem 1.5rem;
+        margin: 1rem;
+        cursor: pointer;
+        
+
+        &-link {
+            background-color: $color-primary-light;
+            text-decoration: none;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            color: $color-white;
+            padding: 2rem;
+            transition: all .5s;
+
+            &:hover {
+            background-color: #55c57a;
+            color: $color-white;
+            padding: 2rem;
+            font-size: 2rem;
+            transform: scale(1.2);
+            box-shadow: $shadow-light;
+            }
+        }
+    }
+
+}

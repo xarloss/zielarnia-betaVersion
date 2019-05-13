@@ -1,0 +1,34 @@
+.company {
+    background-color: #fff;
+    display:inline-block;
+    width: 85%; 
+    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 6rem;
+    font-size: $default-font-size;
+    transform: skewX(-12deg);
+
+    @include respond(tab-port) {
+        transform: skewX(0);
+        width: 100%;
+        padding: 3rem;
+    }
+    &__title {
+        transform: skewX(12deg);
+
+        @include respond(tab-port) {
+            transform: skewX(0);
+        }
+    }
+
+    &__text-box {
+        font-size: 2rem;
+        transform: skewX(12deg);
+
+        @include respond(tab-port) {
+            transform: skewX(0);
+            width: 100%;
+        }
+    }
+}

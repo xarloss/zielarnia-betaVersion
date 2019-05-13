@@ -1,0 +1,33 @@
+
+blockquote {
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+
+    &:before {
+        content: "\201C";
+        font-size: 8rem;
+        display: block;
+        position: absolute;
+        top: -2rem;
+        left: 6rem;
+
+        @include respond(tab-land) {
+            position: absolute;
+            top: -2rem;
+            left: 0;
+        }
+
+    }
+}
+
+    cite {
+        font-size: 2.5rem;
+        margin-top: 2.5rem;
+        display: block;
+        text-align: right;
+
+    }

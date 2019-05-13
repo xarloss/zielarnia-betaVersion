@@ -1,0 +1,35 @@
+.screen-showcase {
+    list-style: none;
+    width: 100%;
+
+    &__li {
+        display: block;
+        float: left;
+        width: 25%;
+    }
+
+    &__photo {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+
+        img {
+            opacity: 0.7;
+            width: 100%;
+            height: auto;
+            transform: scale(1);
+            transition: transform .5s, opacity .5s;
+
+            &:hover {
+                opacity: 1;
+                transform: scale(1.05);
+            }
+
+            &:click {
+                transform: scale(2.05);
+            }
+        }
+    }
+
+    @include clearfix;
+}

@@ -1,0 +1,32 @@
+.section-about {
+    background-color: $color-grey-light-2;
+    padding: 10rem 0;
+}
+.section-screens {
+    padding: 0;
+}
+.section-features {
+    padding: 5rem 0;
+}
+.section-cite {
+    background-image: -webkit-linear-gradient(rgba($color-black, .8), rgba($color-black, .8)), url(../img/ziel-13.jpg);
+    background-image: linear-gradient(rgba($color-black, .8), rgba($color-black, .8)), url(../img/ziel-13.jpg);
+    background-size: cover;
+    color: $color-white;
+    background-attachment: fixed;
+    height: 65vh;
+    padding: 30rem 10rem;
+}
+.section-offer {
+    background-color: $color-grey-light-2;
+    padding: 3rem 0 10rem 0;
+    
+}
+
+.section-slides {
+ max-width: 100vw;
+}
+
+.section-form {
+        background-color: $color-grey-light-2;
+}
